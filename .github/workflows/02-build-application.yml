@@ -1,0 +1,9 @@
+name: Pull request created to main branch
+
+on:
+  pull_request:
+    - main
+
+jobs:
+  build:
+    uses: /maven/build.yaml
