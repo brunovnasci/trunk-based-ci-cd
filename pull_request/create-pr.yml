@@ -1,9 +1,7 @@
 name: Create feature branch pull request
 
 on:
-  push:
-    branches:
-      - feature/*
+  workflow_call:
 
 jobs:
   create-pull-request:
